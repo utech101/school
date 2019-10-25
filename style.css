@@ -1,0 +1,108 @@
+
+body{
+	margin: 0px;
+	font-family: Times New Roman;
+}
+
+#image{
+	margin:0px;
+	padding:0px;
+	background: url(school.jpg)no-repeat;
+	background-size:cover;
+	background-position: center center;
+	position:relative;
+	top:0;
+	bottom:0;
+	height:150vh;
+	z-index: -10;
+}
+
+#image-overlay{
+	position:absolute;
+	background-color: rgba(0,0,0,0.5);
+	top:0;
+	bottom:0;
+	height:100%;
+	width:100%;
+	z-index:-5;
+	
+}
+.login-box{
+	font-family: Times New Roman;
+	width: 490px;
+	height: auto;
+	position: absolute;
+	top:50%;
+	left:50%;
+	background:rgba(0,0,0,0.6);
+	transform: translate(-50%,-50%);
+	color :black;
+	padding: 60px ;
+	box-sizing: border-box;
+}
+.login p{
+	margin:0;
+	padding:0;
+	font-weight:bold;
+	font-size: 20px;
+	color:#fff;
+}
+
+.login-box h1{
+float:center;
+font-size: 70px;
+text-align:center;
+border-bottom: 4px solid #4caf50;
+color:#fff;
+margin-bottom:50px;
+margin-top:50px;
+padding:13px 0;
+
+}
+
+.login {
+	
+	width:100%;
+	overflow:hidden;
+	font-size:20px;
+	padding:8px 0;
+	margin:8px 0;
+	border-bottom: 1px solid #4caf50;
+	
+}
+
+
+.login input{
+	width: 100%;
+	margin-bottom:0 20px;
+}	
+
+.login input[type="text"], input[type="password"]{
+	border:none;
+	background:transparent;
+	outline:none;
+	height:40px;
+	color:#fff;
+	font-size:20px;
+	
+	
+}
+
+.login-box input[type="button"]{
+	height:60px;
+	width:100%;
+	background:#4caf50;
+	border: none;
+	outline:none;
+	color:white;
+	font-size: 20px;
+	border-radius:20px;
+	}
+	
+.login-box input[type="button"]:hover
+{
+	cursor:pointer;
+	background:#39dc79;
+	color: #fff;
+	
+}
