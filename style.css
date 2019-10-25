@@ -114,6 +114,13 @@ padding:13px 0;
 			width:100%;
 		}
 		.login input
-		{width:50%}
+		{width:90%}
+		.login-box input{
+			width:50%;
+		}
+		
+		.login-box h1{
+			width:100%;
+		}
 		
 	}
