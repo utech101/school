@@ -1,1 +1,1 @@
-# utech101.github.io/school/
+# utech101.github.io/schoool/
